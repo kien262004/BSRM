@@ -1,0 +1,47 @@
+def create_parameters(filename, output):
+    cfg = {}
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+    N, K = map(int, lines[1].strip().split())
+    D = list(map(int, lines[2].strip().split()))
+    C = []
+    for line in lines[3:N+4]:
+        C.append(list(map(int, line.strip().split())))
+    cfg['N'] = N
+    cfg['K'] = K
+    cfg['D'] = D
+    cfg['C'] = C
+    cfg['MAX'] = 10000
+    cfg['output'] = output
+    cfg['T'] = 10
+    cfg['gamma'] = 0.5
+    cfg['alpha'] = 0.5
+    cfg['is_add_time_execute'] = True
+    cfg['is_add_depost_time'] = False
+    return cfg
+
+def print_target_value(cfg, filename, ofcontest = False):
+    N = cfg['N']
+    D = cfg['D']
+    C = cfg['C']
+    start = N+5 if ofcontest else 0
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+    employees = int(lines[start].strip())
+    best = 0
+    for i in range(employees):
+        trip = list(map(int, lines[start+i*2+2].strip().split()))
+        temp = C[trip[0]][trip[1]]
+        for j in range(1, len(trip[:-1])):
+            temp += C[trip[j]][trip[j+1]] + D[trip[j]-1]
+        best = max(best, temp)
+    print(best)
+
+def log_solution(schedule, filename):
+    with open(filename, 'w') as f:
+        f.write(str(len(schedule)) + '\n')
+        for i in range(len(schedule)):
+            f.write(str(len(schedule[i])) + '\n')
+            f.write(' '.join(list(map(str, schedule[i]))) + '\n')
+            
+        

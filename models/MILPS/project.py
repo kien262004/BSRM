@@ -1,33 +1,5 @@
 from ortools.linear_solver import pywraplp
 
-def create_parameters(filename, output):
-    cfg = {}
-    with open(filename, 'r') as f:
-        lines = f.readlines()
-    N, K = map(int, lines[1].strip().split())
-    D = list(map(int, lines[2].strip().split()))
-    C = []
-    for line in lines[3:N+4]:
-        C.append(list(map(int, line.strip().split())))
-    cfg['N'] = N
-    cfg['K'] = K
-    cfg['D'] = D
-    cfg['C'] = C
-    cfg['MAX'] = 10000
-    cfg['output'] = output
-    
-    employees = int(lines[N+5].strip())
-    best = 0
-    for i in range(employees):
-        trip = list(map(int, lines[N+5+i*2+2].strip().split()))
-        temp = C[trip[0]][trip[1]]
-        for j in range(1, len(trip[:-1])):
-            temp += C[trip[j]][trip[j+1]] + D[trip[j]-1]
-        best = max(best, temp)
-    print(best)
-    return cfg
-    
-
 def create_variables(solver, cfg):
     N, K = cfg['N'], cfg['K']
     infinity = solver.Infinity()
@@ -128,30 +100,26 @@ def create_objective(solver, cfg, variables):
     return objective
 
 def output_solution(variable, cfg):
-    with open(cfg['output'], 'w') as f:
-        f.write(str(cfg['K']) + '\n')
-        for v in range(cfg['K']):
-            start = 0
-            trip = [0]
-            stop = False
-            while not stop:
-                for i in range(cfg['N']+1):
-                    if variable['X'][v][start][i].solution_value() == 1:
-                        start = i
-                        trip.append(start)
-                        break
-                if start == 0: stop = True
-            f.write(str(len(trip))+'\n')
-            f.writelines([str(x)+' ' for x in trip])
-            f.write('\n')
-def main():
-    cfg = create_parameters('./instance/case5.txt', './output/case5.txt')        
+    solution = []
+    for v in range(cfg['K']):
+        start = 0
+        trip = [0]
+        stop = False
+        while not stop:
+            for i in range(cfg['N']+1):
+                if variable['X'][v][start][i].solution_value() == 1:
+                    start = i
+                    trip.append(start)
+                    break
+            if start == 0: stop = True
+        solution.append(trip)
+    return solution
+def main(cfg):
     solver = pywraplp.Solver.CreateSolver('SAT')
     variables = create_variables(solver, cfg)
     constraints = create_constraints(solver, cfg, variables)
     objective = create_objective(solver, cfg, variables)
     solver.Solve()
-    print(objective.Value())
-    output_solution(variables, cfg)
-main()
+    solution = output_solution(variables, cfg)
+    return solution
     
