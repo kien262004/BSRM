@@ -261,8 +261,8 @@ def localSearch(cfg, schedule, thresh=0.5, MAX_ITER=5000):
         if p < thresh:
             a, b = -1, -1
             n = len(schedule[i])
-            for j in range(n):
-                for k in range(n):
+            for j in range(1, n-1):
+                for k in range(1, n-1):
                     if j == k: continue
                     temp = cal_delta(C, j, k, schedule[i])
                     if delta > temp:
@@ -278,8 +278,8 @@ def localSearch(cfg, schedule, thresh=0.5, MAX_ITER=5000):
             o = random.randint(0, len(schedule)-1)
             n = len(schedule[i])
             m = len(schedule[o])
-            for j in range(n):
-                for k in range(m):
+            for j in range(1, n-1):
+                for k in range(1, m-1):
                     temp1, temp2 = cal_delta(C, j, k, (schedule[i], schedule[o]))
                     if delta > temp1 + temp2:
                         a, b = j, k
