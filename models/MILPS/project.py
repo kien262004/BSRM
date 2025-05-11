@@ -114,6 +114,7 @@ def output_solution(variable, cfg):
             if start == 0: stop = True
         solution.append(trip)
     return solution
+
 def main(cfg):
     solver = pywraplp.Solver.CreateSolver('SAT')
     variables = create_variables(solver, cfg)
