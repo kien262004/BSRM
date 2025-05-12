@@ -389,7 +389,7 @@ if __name__ == "__main__":
     # 2. Chạy GA để tìm lời giải tối ưu
     best_sol, best_fit = genetic_algorithm(N, K, d_list, t_matrix,
                                         pop_size=100,
-                                        generations=400,
+                                        generations=500,
                                         crossover_rate=0.8,
                                         mutation_rate=0.1,
                                         use_hill_climbing=True,

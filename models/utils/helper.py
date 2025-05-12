@@ -2,10 +2,10 @@ def create_parameters(filename, output):
     cfg = {}
     with open(filename, 'r') as f:
         lines = f.readlines()
-    N, K = map(int, lines[1].strip().split())
-    D = list(map(int, lines[2].strip().split()))
+    N, K = map(int, lines[0].strip().split())
+    D = list(map(int, lines[1].strip().split()))
     C = []
-    for line in lines[3:N+4]:
+    for line in lines[2:N+3]:
         C.append(list(map(int, line.strip().split())))
     cfg['N'] = N
     cfg['K'] = K
