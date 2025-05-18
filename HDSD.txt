@@ -1,0 +1,23 @@
+1. Chạy một thuật toán với một hoặc nhiều instance:
+
+    # Chạy một instance
+    python run_test.py -a GA -i custom/case1.txt
+
+    # Chạy nhiều instance
+    python run_test.py -a GA -i custom/case1.txt,custom/case2.txt
+
+2. Chạy một thuật toán với tất cả các instance:
+
+    python run_test.py -a GA --all
+
+3.So sánh tất cả các thuật toán:
+
+    # So sánh với tất cả các instance
+    python run_test.py --compare
+
+    # So sánh với các instance được chọn
+    python run_test.py --compare -i custom/case1.txt,custom/case2.txt
+
+4. Xem danh sách các thuật toán và instance có sẵn
+
+    python run_test.py --list
