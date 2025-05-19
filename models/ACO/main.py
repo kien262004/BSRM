@@ -30,7 +30,8 @@ def main(cfg):
     schedule = []
     for route in solution:
         # Convert route to list of customer indices (excluding depot)
-        customer_route = [node for node in route[1:-1]]  # Exclude first and last depot
+        customer_route = [0] + [node for node in route[1:-1]] + [0] # Exclude first and last depot
+        
         schedule.append(customer_route)
     
     return schedule 

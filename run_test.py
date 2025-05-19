@@ -4,6 +4,7 @@ import argparse
 import matplotlib.pyplot as plt
 import numpy as np
 from models.utils.helper import create_parameters, print_target_value, log_solution
+from datetime import datetime
 
 def get_available_algorithms():
     """Lấy danh sách các thuật toán có sẵn trong thư mục models"""
@@ -79,6 +80,24 @@ def run_all_instances(algorithm_name):
     
     return results
 
+def write_results_to_file(results, instances, filename="algorithm_results.txt"):
+    """Ghi kết quả của các thuật toán vào file txt"""
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(f"Kết quả chạy các thuật toán - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        f.write("="*50 + "\n\n")
+        
+        for algo in results:
+            f.write(f"Thuật toán: {algo}\n")
+            f.write("-"*30 + "\n")
+            for instance in instances:
+                result = results[algo].get(instance, "Không có kết quả")
+                f.write(f"Instance: {instance}\n")
+                f.write(f"Kết quả: {result}\n\n")
+            f.write("\n")
+        
+        f.write("="*50 + "\n")
+        f.write("Kết thúc báo cáo\n")
+
 def run_all_algorithms(instances):
     """Chạy tất cả các thuật toán với các instance được chọn"""
     algorithms = get_available_algorithms()
@@ -94,6 +113,10 @@ def run_all_algorithms(instances):
             if result is not None:
                 algo_results[instance] = result
         results[algo] = algo_results
+    
+    # Ghi kết quả vào file
+    write_results_to_file(results, instances)
+    print(f"\nĐã lưu kết quả chi tiết vào file 'algorithm_results.txt'")
     
     return results
 

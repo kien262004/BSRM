@@ -21,3 +21,56 @@
 4. Xem danh sách các thuật toán và instance có sẵn
 
     python run_test.py --list
+
+Các thuật toán có sẵn:
+- ACO
+- GA
+- heuristic
+- Heuristic-01
+- segerstedt
+
+Các instance có sẵn:
+- custom\N_1000_K_100.txt
+- custom\N_1000_K_200.txt
+- custom\N_100_K_10.txt
+- custom\N_100_K_20.txt
+- custom\N_10_K_2.txt
+- custom\N_200_K_10.txt
+- custom\N_200_K_20.txt
+- custom\N_400_K_40.txt
+- custom\N_500_K_50.txt
+- custom\N_50_K_10.txt
+- custom\N_50_K_5.txt
+- custom\N_5_K_2.txt
+- custom\N_700_K_70.txt
+- custom\N_900_K_90.txt
+- custom\solution_1000_100_outskirt.txt
+- custom\solution_1000_50_outskirt.txt
+- custom\solution_100_10_crowded.txt
+- custom\solution_10_5_crowded.txt
+- custom\solution_10_5_outskirt.txt
+- custom\solution_200_10_crowded.txt
+- custom\solution_200_10_outskirt.txt
+- custom\solution_200_20_crowded.txt
+- custom\solution_200_20_outskirt.txt
+- custom\solution_20_2_crowded.txt
+- custom\solution_20_2_outskirt.txt
+- custom\solution_500_25_crowded.txt
+- custom\solution_500_25_outskirt.txt
+- custom\solution_500_50_crowded.txt
+- custom\solution_500_50_outskirt.txt
+- custom\solution_50_5_crowded.txt
+- custom\solution_50_5_outskirt.txt
+- custom\solution_5_2_crowded.txt
+- custom\solution_5_2_outskirt.txt
+- custom\solution_700_35_outskirt.txt
+- custom\solution_700_70_crowded.txt
+- custom\solution_700_70_outskirt.txt
+- custom\solution_900_45_outskirt.txt
+- custom\solution_900_90_outskirt.txt
+- hustack\case1.txt
+- hustack\case2.txt
+- hustack\case3.txt
+- hustack\case4.txt
+- hustack\case5.txt
+- hustack\case6.txt

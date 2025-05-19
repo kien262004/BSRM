@@ -327,9 +327,9 @@ def genetic_algorithm(N, K, d_list, t_matrix,
                 fitnesses[worst_idx] = improved_fit
 
         # In thông tin quá trình mà không plot liên tục
-        if (gen + 1) % 50 == 0 or gen == generations - 1:
-            print(
-                f"Generation {gen + 1}/{generations} | Best makespan: {best_fit} | Average fitness: {gen_avg_fit:.2f}")
+        # if (gen + 1) % 50 == 0 or gen == generations - 1:
+        #     print(
+        #         f"Generation {gen + 1}/{generations} | Best makespan: {best_fit} | Average fitness: {gen_avg_fit:.2f}")
 
     # # Sau khi kết thúc vòng lặp, plot kết quả 1 lần duy nhất.
     # plt.figure(figsize=(12, 5))

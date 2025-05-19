@@ -37,7 +37,7 @@ def main(cfg):
     # Tối ưu từng tuyến bằng TSP-2opt
     schedule = []
     for route in routes:
-        optimized_route = tsp_2opt(route, d_list, t_matrix) + [0]
-        schedule.append(optimized_route)
-    # print(schedule)
+        optimized_route = tsp_2opt(route, d_list, t_matrix)
+        schedule.append([0] + optimized_route + [0])
+    
     return schedule

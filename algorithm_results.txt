@@ -1,0 +1,1170 @@
+==================================================
+Chạy thuật toán: ACO
+
+Instance: custom\N_1000_K_100.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_1000_K_100.txt:
+3770
+
+Instance: custom\N_1000_K_200.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_1000_K_200.txt:
+3230
+
+Instance: custom\N_100_K_10.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_100_K_10.txt:
+3420
+
+Instance: custom\N_100_K_20.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_100_K_20.txt:
+2389
+
+Instance: custom\N_10_K_2.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_10_K_2.txt:
+550
+
+Instance: custom\N_200_K_10.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_200_K_10.txt:
+4650
+
+Instance: custom\N_200_K_20.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_200_K_20.txt:
+3560
+
+Instance: custom\N_400_K_40.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_400_K_40.txt:
+3610
+
+Instance: custom\N_500_K_50.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_500_K_50.txt:
+3710
+
+Instance: custom\N_50_K_10.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_50_K_10.txt:
+595
+
+Instance: custom\N_50_K_5.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_50_K_5.txt:
+904
+
+Instance: custom\N_5_K_2.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_5_K_2.txt:
+360
+
+Instance: custom\N_700_K_70.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_700_K_70.txt:
+3730
+
+Instance: custom\N_900_K_90.txt
+
+Kết quả cho thuật toán ACO với instance custom\N_900_K_90.txt:
+3800
+
+Instance: custom\solution_1000_100_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_1000_100_outskirt.txt:
+1162
+
+Instance: custom\solution_1000_50_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_1000_50_outskirt.txt:
+2113
+
+Instance: custom\solution_100_10_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_100_10_crowded.txt:
+912
+
+Instance: custom\solution_10_5_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_10_5_crowded.txt:
+158
+
+Instance: custom\solution_10_5_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_10_5_outskirt.txt:
+195
+
+Instance: custom\solution_200_10_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_200_10_crowded.txt:
+1707
+
+Instance: custom\solution_200_10_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_200_10_outskirt.txt:
+1831
+
+Instance: custom\solution_200_20_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_200_20_crowded.txt:
+1031
+
+Instance: custom\solution_200_20_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_200_20_outskirt.txt:
+1036
+
+Instance: custom\solution_20_2_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_20_2_crowded.txt:
+686
+
+Instance: custom\solution_20_2_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_20_2_outskirt.txt:
+743
+
+Instance: custom\solution_500_25_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_500_25_crowded.txt:
+2012
+
+Instance: custom\solution_500_25_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_500_25_outskirt.txt:
+2009
+
+Instance: custom\solution_500_50_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_500_50_crowded.txt:
+1159
+
+Instance: custom\solution_500_50_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_500_50_outskirt.txt:
+1112
+
+Instance: custom\solution_50_5_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_50_5_crowded.txt:
+841
+
+Instance: custom\solution_50_5_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_50_5_outskirt.txt:
+741
+
+Instance: custom\solution_5_2_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_5_2_crowded.txt:
+147
+
+Instance: custom\solution_5_2_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_5_2_outskirt.txt:
+326
+
+Instance: custom\solution_700_35_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_700_35_outskirt.txt:
+2115
+
+Instance: custom\solution_700_70_crowded.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_700_70_crowded.txt:
+1148
+
+Instance: custom\solution_700_70_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_700_70_outskirt.txt:
+1167
+
+Instance: custom\solution_900_45_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_900_45_outskirt.txt:
+2119
+
+Instance: custom\solution_900_90_outskirt.txt
+
+Kết quả cho thuật toán ACO với instance custom\solution_900_90_outskirt.txt:
+1135
+
+Instance: hustack\case1.txt
+
+Kết quả cho thuật toán ACO với instance hustack\case1.txt:
+4700
+
+Instance: hustack\case2.txt
+
+Kết quả cho thuật toán ACO với instance hustack\case2.txt:
+3580
+
+Instance: hustack\case3.txt
+
+Kết quả cho thuật toán ACO với instance hustack\case3.txt:
+3660
+
+Instance: hustack\case4.txt
+
+Kết quả cho thuật toán ACO với instance hustack\case4.txt:
+360
+
+Instance: hustack\case5.txt
+
+Kết quả cho thuật toán ACO với instance hustack\case5.txt:
+3380
+
+Instance: hustack\case6.txt
+
+Kết quả cho thuật toán ACO với instance hustack\case6.txt:
+3680
+
+==================================================
+Chạy thuật toán: GA
+
+Instance: custom\N_1000_K_100.txt
+
+Kết quả cho thuật toán GA với instance custom\N_1000_K_100.txt:
+3140
+
+Instance: custom\N_1000_K_200.txt
+
+Kết quả cho thuật toán GA với instance custom\N_1000_K_200.txt:
+2960
+
+Instance: custom\N_100_K_10.txt
+
+Kết quả cho thuật toán GA với instance custom\N_100_K_10.txt:
+3090
+
+Instance: custom\N_100_K_20.txt
+
+Kết quả cho thuật toán GA với instance custom\N_100_K_20.txt:
+2221
+
+Instance: custom\N_10_K_2.txt
+
+Kết quả cho thuật toán GA với instance custom\N_10_K_2.txt:
+540
+
+Instance: custom\N_200_K_10.txt
+
+Kết quả cho thuật toán GA với instance custom\N_200_K_10.txt:
+4540
+
+Instance: custom\N_200_K_20.txt
+
+Kết quả cho thuật toán GA với instance custom\N_200_K_20.txt:
+3240
+
+Instance: custom\N_400_K_40.txt
+
+Kết quả cho thuật toán GA với instance custom\N_400_K_40.txt:
+3090
+
+Instance: custom\N_500_K_50.txt
+
+Kết quả cho thuật toán GA với instance custom\N_500_K_50.txt:
+3170
+
+Instance: custom\N_50_K_10.txt
+
+Kết quả cho thuật toán GA với instance custom\N_50_K_10.txt:
+524
+
+Instance: custom\N_50_K_5.txt
+
+Kết quả cho thuật toán GA với instance custom\N_50_K_5.txt:
+804
+
+Instance: custom\N_5_K_2.txt
+
+Kết quả cho thuật toán GA với instance custom\N_5_K_2.txt:
+360
+
+Instance: custom\N_700_K_70.txt
+
+Kết quả cho thuật toán GA với instance custom\N_700_K_70.txt:
+3120
+
+Instance: custom\N_900_K_90.txt
+
+Kết quả cho thuật toán GA với instance custom\N_900_K_90.txt:
+3380
+
+Instance: custom\solution_1000_100_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_1000_100_outskirt.txt:
+816
+
+Instance: custom\solution_1000_50_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_1000_50_outskirt.txt:
+1378
+
+Instance: custom\solution_100_10_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_100_10_crowded.txt:
+1301
+
+Instance: custom\solution_10_5_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_10_5_crowded.txt:
+158
+
+Instance: custom\solution_10_5_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_10_5_outskirt.txt:
+195
+
+Instance: custom\solution_200_10_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_200_10_crowded.txt:
+1289
+
+Instance: custom\solution_200_10_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_200_10_outskirt.txt:
+1351
+
+Instance: custom\solution_200_20_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_200_20_crowded.txt:
+724
+
+Instance: custom\solution_200_20_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_200_20_outskirt.txt:
+751
+
+Instance: custom\solution_20_2_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_20_2_crowded.txt:
+660
+
+Instance: custom\solution_20_2_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_20_2_outskirt.txt:
+711
+
+Instance: custom\solution_500_25_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_500_25_crowded.txt:
+1355
+
+Instance: custom\solution_500_25_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_500_25_outskirt.txt:
+1287
+
+Instance: custom\solution_500_50_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_500_50_crowded.txt:
+827
+
+Instance: custom\solution_500_50_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_500_50_outskirt.txt:
+763
+
+Instance: custom\solution_50_5_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_50_5_crowded.txt:
+1376
+
+Instance: custom\solution_50_5_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_50_5_outskirt.txt:
+677
+
+Instance: custom\solution_5_2_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_5_2_crowded.txt:
+147
+
+Instance: custom\solution_5_2_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_5_2_outskirt.txt:
+326
+
+Instance: custom\solution_700_35_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_700_35_outskirt.txt:
+1395
+
+Instance: custom\solution_700_70_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_700_70_crowded.txt:
+839
+
+Instance: custom\solution_700_70_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_700_70_outskirt.txt:
+1231
+
+Instance: custom\solution_900_45_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_900_45_outskirt.txt:
+2478
+
+Instance: custom\solution_900_90_outskirt.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_900_90_outskirt.txt:
+794
+
+Instance: hustack\case1.txt
+
+Kết quả cho thuật toán GA với instance hustack\case1.txt:
+4340
+
+Instance: hustack\case2.txt
+
+Kết quả cho thuật toán GA với instance hustack\case2.txt:
+3730
+
+Instance: hustack\case3.txt
+
+Kết quả cho thuật toán GA với instance hustack\case3.txt:
+3240
+
+Instance: hustack\case4.txt
+
+Kết quả cho thuật toán GA với instance hustack\case4.txt:
+360
+
+Instance: hustack\case5.txt
+
+Kết quả cho thuật toán GA với instance hustack\case5.txt:
+3120
+
+Instance: hustack\case6.txt
+
+Kết quả cho thuật toán GA với instance hustack\case6.txt:
+4550
+
+==================================================
+Chạy thuật toán: heuristic
+
+Instance: custom\N_1000_K_100.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_1000_K_100.txt:
+4680
+
+Instance: custom\N_1000_K_200.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_1000_K_200.txt:
+4000
+
+Instance: custom\N_100_K_10.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_100_K_10.txt:
+3700
+
+Instance: custom\N_100_K_20.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_100_K_20.txt:
+2637
+
+Instance: custom\N_10_K_2.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_10_K_2.txt:
+550
+
+Instance: custom\N_200_K_10.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_200_K_10.txt:
+4760
+
+Instance: custom\N_200_K_20.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_200_K_20.txt:
+3730
+
+Instance: custom\N_400_K_40.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_400_K_40.txt:
+4350
+
+Instance: custom\N_500_K_50.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_500_K_50.txt:
+4210
+
+Instance: custom\N_50_K_10.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_50_K_10.txt:
+645
+
+Instance: custom\N_50_K_5.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_50_K_5.txt:
+1022
+
+Instance: custom\N_5_K_2.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_5_K_2.txt:
+460
+
+Instance: custom\N_700_K_70.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_700_K_70.txt:
+4360
+
+Instance: custom\N_900_K_90.txt
+
+Kết quả cho thuật toán heuristic với instance custom\N_900_K_90.txt:
+4160
+
+Instance: custom\solution_1000_100_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_1000_100_outskirt.txt:
+1303
+
+Instance: custom\solution_1000_50_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_1000_50_outskirt.txt:
+1736
+
+Instance: custom\solution_100_10_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_100_10_crowded.txt:
+742
+
+Instance: custom\solution_10_5_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_10_5_crowded.txt:
+186
+
+Instance: custom\solution_10_5_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_10_5_outskirt.txt:
+450
+
+Instance: custom\solution_200_10_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_200_10_crowded.txt:
+1506
+
+Instance: custom\solution_200_10_outskirt.txt
+D:\k0d3\ToiUuProVjp\BSRM\models\heuristic\main.py:33: RuntimeWarning: invalid value encountered in divide
+  centroids = W.T@position / np.sum(W, axis=0, keepdims=True).T
+
+Kết quả cho thuật toán heuristic với instance custom\solution_200_10_outskirt.txt:
+1606
+
+Instance: custom\solution_200_20_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_200_20_crowded.txt:
+787
+
+Instance: custom\solution_200_20_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_200_20_outskirt.txt:
+933
+
+Instance: custom\solution_20_2_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_20_2_crowded.txt:
+674
+
+Instance: custom\solution_20_2_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_20_2_outskirt.txt:
+770
+
+Instance: custom\solution_500_25_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_500_25_crowded.txt:
+1681
+
+Instance: custom\solution_500_25_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_500_25_outskirt.txt:
+1705
+
+Instance: custom\solution_500_50_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_500_50_crowded.txt:
+1099
+
+Instance: custom\solution_500_50_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_500_50_outskirt.txt:
+1147
+
+Instance: custom\solution_50_5_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_50_5_crowded.txt:
+811
+
+Instance: custom\solution_50_5_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_50_5_outskirt.txt:
+724
+
+Instance: custom\solution_5_2_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_5_2_crowded.txt:
+147
+
+Instance: custom\solution_5_2_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_5_2_outskirt.txt:
+349
+
+Instance: custom\solution_700_35_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_700_35_outskirt.txt:
+1776
+
+Instance: custom\solution_700_70_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_700_70_crowded.txt:
+1164
+
+Instance: custom\solution_700_70_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_700_70_outskirt.txt:
+1046
+
+Instance: custom\solution_900_45_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_900_45_outskirt.txt:
+2075
+
+Instance: custom\solution_900_90_outskirt.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_900_90_outskirt.txt:
+1250
+
+Instance: hustack\case1.txt
+
+Kết quả cho thuật toán heuristic với instance hustack\case1.txt:
+4620
+
+Instance: hustack\case2.txt
+
+Kết quả cho thuật toán heuristic với instance hustack\case2.txt:
+3680
+
+Instance: hustack\case3.txt
+
+Kết quả cho thuật toán heuristic với instance hustack\case3.txt:
+4490
+
+Instance: hustack\case4.txt
+
+Kết quả cho thuật toán heuristic với instance hustack\case4.txt:
+460
+
+Instance: hustack\case5.txt
+
+Kết quả cho thuật toán heuristic với instance hustack\case5.txt:
+3640
+
+Instance: hustack\case6.txt
+
+Kết quả cho thuật toán heuristic với instance hustack\case6.txt:
+4280
+
+==================================================
+Chạy thuật toán: Heuristic-01
+
+Instance: custom\N_1000_K_100.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_1000_K_100.txt:
+4980
+
+Instance: custom\N_1000_K_200.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_1000_K_200.txt:
+3610
+
+Instance: custom\N_100_K_10.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_100_K_10.txt:
+4140
+
+Instance: custom\N_100_K_20.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_100_K_20.txt:
+2711
+
+Instance: custom\N_10_K_2.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_10_K_2.txt:
+580
+
+Instance: custom\N_200_K_10.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_200_K_10.txt:
+6610
+
+Instance: custom\N_200_K_20.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_200_K_20.txt:
+4560
+
+Instance: custom\N_400_K_40.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_400_K_40.txt:
+4620
+
+Instance: custom\N_500_K_50.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_500_K_50.txt:
+4650
+
+Instance: custom\N_50_K_10.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_50_K_10.txt:
+614
+
+Instance: custom\N_50_K_5.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_50_K_5.txt:
+926
+
+Instance: custom\N_5_K_2.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_5_K_2.txt:
+340
+
+Instance: custom\N_700_K_70.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_700_K_70.txt:
+4880
+
+Instance: custom\N_900_K_90.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\N_900_K_90.txt:
+4960
+
+Instance: custom\solution_1000_100_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_1000_100_outskirt.txt:      
+1154
+
+Instance: custom\solution_1000_50_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_1000_50_outskirt.txt:       
+1883
+
+Instance: custom\solution_100_10_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_100_10_crowded.txt:
+985
+
+Instance: custom\solution_10_5_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_10_5_crowded.txt:
+253
+
+Instance: custom\solution_10_5_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_10_5_outskirt.txt:
+225
+
+Instance: custom\solution_200_10_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_200_10_crowded.txt:
+1669
+
+Instance: custom\solution_200_10_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_200_10_outskirt.txt:        
+1674
+
+Instance: custom\solution_200_20_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_200_20_crowded.txt:
+954
+
+Instance: custom\solution_200_20_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_200_20_outskirt.txt:        
+982
+
+Instance: custom\solution_20_2_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_20_2_crowded.txt:
+688
+
+Instance: custom\solution_20_2_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_20_2_outskirt.txt:
+762
+
+Instance: custom\solution_500_25_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_500_25_crowded.txt:
+1759
+
+Instance: custom\solution_500_25_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_500_25_outskirt.txt:        
+1794
+
+Instance: custom\solution_500_50_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_500_50_crowded.txt:
+986
+
+Instance: custom\solution_500_50_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_500_50_outskirt.txt:        
+1049
+
+Instance: custom\solution_50_5_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_50_5_crowded.txt:
+895
+
+Instance: custom\solution_50_5_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_50_5_outskirt.txt:
+823
+
+Instance: custom\solution_5_2_crowded.txt
+
+Kết quả cho thuật toán heuristic với instance custom\solution_5_2_crowded.txt:
+147
+
+Instance: custom\solution_5_2_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_5_2_outskirt.txt:
+326
+
+Instance: custom\solution_700_35_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_700_35_outskirt.txt:
+1771
+
+Instance: custom\solution_700_70_crowded.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_700_70_crowded.txt:
+1157
+
+Instance: custom\solution_700_70_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_700_70_outskirt.txt:
+1167
+
+Instance: custom\solution_900_45_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_900_45_outskirt.txt:
+1768
+
+Instance: custom\solution_900_90_outskirt.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance custom\solution_900_90_outskirt.txt:
+1135
+
+Instance: hustack\case1.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance hustack\case1.txt:
+4700
+
+Instance: hustack\case2.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance hustack\case2.txt:
+3580
+
+Instance: hustack\case3.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance hustack\case3.txt:
+3660
+
+Instance: hustack\case4.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance hustack\case4.txt:
+360
+
+Instance: hustack\case5.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance hustack\case5.txt:
+3380
+
+Instance: hustack\case6.txt
+
+Kết quả cho thuật toán Heuristic-01 với instance hustack\case6.txt:
+3680
+
+
+
+Chạy thuật toán segerstedt với 44 instance:
+
+==================================================
+Instance: custom\N_1000_K_100.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_1000_K_100.txt:
+3220
+
+==================================================
+Instance: custom\N_1000_K_200.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_1000_K_200.txt:
+2780
+
+==================================================
+Instance: custom\N_100_K_10.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_100_K_10.txt:
+3260
+
+==================================================
+Instance: custom\N_100_K_20.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_100_K_20.txt:
+2226
+
+==================================================
+Instance: custom\N_10_K_2.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_10_K_2.txt:
+560
+
+==================================================
+Instance: custom\N_200_K_10.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_200_K_10.txt:
+4260
+
+==================================================
+Instance: custom\N_200_K_20.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_200_K_20.txt:
+3360
+
+==================================================
+Instance: custom\N_400_K_40.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_400_K_40.txt:
+3250
+
+==================================================
+Instance: custom\N_500_K_50.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_500_K_50.txt:
+3240
+
+==================================================
+Instance: custom\N_50_K_10.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_50_K_10.txt:
+558
+
+==================================================
+Instance: custom\N_50_K_5.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_50_K_5.txt:
+844
+
+==================================================
+Instance: custom\N_5_K_2.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_5_K_2.txt:
+360
+
+==================================================
+Instance: custom\N_700_K_70.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_700_K_70.txt:
+3200
+
+==================================================
+Instance: custom\N_900_K_90.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\N_900_K_90.txt:
+3230
+
+==================================================
+Instance: custom\solution_1000_100_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_1000_100_outskirt.txt:
+740
+
+==================================================
+Instance: custom\solution_1000_50_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_1000_50_outskirt.txt:
+1291
+
+==================================================
+Instance: custom\solution_100_10_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_100_10_crowded.txt:
+713
+
+==================================================
+Instance: custom\solution_10_5_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_10_5_crowded.txt:
+158
+
+==================================================
+Instance: custom\solution_10_5_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_10_5_outskirt.txt:
+205
+
+==================================================
+Instance: custom\solution_200_10_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_200_10_crowded.txt:
+1281
+
+==================================================
+Instance: custom\solution_200_10_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_200_10_outskirt.txt:
+1349
+
+==================================================
+Instance: custom\solution_200_20_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_200_20_crowded.txt:
+735
+
+==================================================
+Instance: custom\solution_200_20_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_200_20_outskirt.txt:
+757
+
+==================================================
+Instance: custom\solution_20_2_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_20_2_crowded.txt:
+699
+
+==================================================
+Instance: custom\solution_20_2_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_20_2_outskirt.txt:
+748
+
+==================================================
+Instance: custom\solution_500_25_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_500_25_crowded.txt:
+1260
+
+==================================================
+Instance: custom\solution_500_25_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_500_25_outskirt.txt:
+1261
+
+==================================================
+Instance: custom\solution_500_50_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_500_50_crowded.txt:
+731
+
+==================================================
+Instance: custom\solution_500_50_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_500_50_outskirt.txt:
+749
+
+==================================================
+Instance: custom\solution_50_5_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_50_5_crowded.txt:
+768
+
+==================================================
+Instance: custom\solution_50_5_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_50_5_outskirt.txt:
+741
+
+==================================================
+Instance: custom\solution_5_2_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_5_2_crowded.txt:
+147
+
+==================================================
+Instance: custom\solution_5_2_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_5_2_outskirt.txt:
+326
+
+==================================================
+Instance: custom\solution_700_35_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_700_35_outskirt.txt:
+1269
+
+==================================================
+Instance: custom\solution_700_70_crowded.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_700_70_crowded.txt:
+754
+
+==================================================
+Instance: custom\solution_700_70_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_700_70_outskirt.txt:
+754
+
+==================================================
+Instance: custom\solution_900_45_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_900_45_outskirt.txt:
+1314
+
+==================================================
+Instance: custom\solution_900_90_outskirt.txt
+
+Kết quả cho thuật toán segerstedt với instance custom\solution_900_90_outskirt.txt:
+736
+
+==================================================
+Instance: hustack\case1.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case1.txt:
+4260
+
+==================================================
+Instance: hustack\case2.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case2.txt:
+3360
+
+==================================================
+Instance: hustack\case3.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case3.txt:
+3220
+
+==================================================
+Instance: hustack\case4.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case4.txt:
+360
+
+==================================================
+Instance: hustack\case5.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case5.txt:
+3260
+
+==================================================
+Instance: hustack\case6.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case6.txt:
+3240
+
+
+
+
+
+
+
+
+

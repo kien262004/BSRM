@@ -25,17 +25,43 @@ def print_target_value(cfg, filename, ofcontest = False):
     D = cfg['D']
     C = cfg['C']
     start = N+5 if ofcontest else 0
-    with open(filename, 'r') as f:
-        lines = f.readlines()
-    employees = int(lines[start].strip())
-    best = 0
-    for i in range(employees):
-        trip = list(map(int, lines[start+i*2+2].strip().split()))
-        temp = C[trip[0]][trip[1]]
-        for j in range(1, len(trip[:-1])):
-            temp += C[trip[j]][trip[j+1]] + D[trip[j]-1]
-        best = max(best, temp)
-    print(best)
+    
+    try:
+        with open(filename, 'r') as f:
+            lines = f.readlines()
+        
+        if len(lines) <= start:
+            print("Warning: Output file has insufficient lines")
+            return 0
+            
+        employees = int(lines[start].strip())
+        best = 0
+        
+        for i in range(employees):
+            if start + i*2 + 2 >= len(lines):
+                print(f"Warning: Missing data for employee {i+1}")
+                continue
+                
+            try:
+                trip = list(map(int, lines[start+i*2+2].strip().split()))
+                if len(trip) < 2:
+                    print(f"Warning: Trip for employee {i+1} is too short")
+                    continue
+                    
+                temp = C[trip[0]][trip[1]]
+                for j in range(1, len(trip) - 1):
+                    temp += C[trip[j]][trip[j+1]] + D[trip[j]-1]
+                best = max(best, temp)
+            except (IndexError, ValueError) as e:
+                print(f"Warning: Error processing trip for employee {i+1}: {str(e)}")
+                continue
+        
+        print(best)
+        return best
+        
+    except Exception as e:
+        print(f"Error processing output file: {str(e)}")
+        return 0
 
 def log_solution(schedule, filename):
     with open(filename, 'w') as f:
