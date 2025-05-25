@@ -1,0 +1,333 @@
+==================================================
+Instance: custom\N_1000_K_100.txt
+Time limit of 300 seconds reached. Stopping at generation 2156
+
+Kết quả cho thuật toán GA với instance custom\N_1000_K_100.txt:
+3040
+
+==================================================
+Instance: custom\N_1000_K_200.txt
+Time limit of 300 seconds reached. Stopping at generation 1999
+
+Kết quả cho thuật toán GA với instance custom\N_1000_K_200.txt:
+2880
+
+==================================================
+Instance: custom\N_100_K_10.txt
+Time limit of 300 seconds reached. Stopping at generation 62146
+
+Kết quả cho thuật toán GA với instance custom\N_100_K_10.txt:
+2950
+
+==================================================
+Instance: custom\N_100_K_20.txt
+Time limit of 300 seconds reached. Stopping at generation 66102
+
+Kết quả cho thuật toán GA với instance custom\N_100_K_20.txt:
+3748
+
+==================================================
+Instance: custom\N_10_K_2.txt
+Time limit of 300 seconds reached. Stopping at generation 364513
+
+Kết quả cho thuật toán GA với instance custom\N_10_K_2.txt:
+750
+
+==================================================
+Instance: custom\N_200_K_10.txt
+Time limit of 300 seconds reached. Stopping at generation 32130
+
+Kết quả cho thuật toán GA với instance custom\N_200_K_10.txt:
+4340
+
+==================================================
+Instance: custom\N_200_K_20.txt
+Time limit of 300 seconds reached. Stopping at generation 30636
+
+Kết quả cho thuật toán GA với instance custom\N_200_K_20.txt:
+3220
+
+==================================================
+Instance: custom\N_400_K_40.txt
+Time limit of 300 seconds reached. Stopping at generation 11347
+
+Kết quả cho thuật toán GA với instance custom\N_400_K_40.txt:
+3090
+
+==================================================
+Instance: custom\N_500_K_50.txt
+Time limit of 300 seconds reached. Stopping at generation 7298
+
+Kết quả cho thuật toán GA với instance custom\N_500_K_50.txt:
+3140
+
+==================================================
+Instance: custom\N_50_K_10.txt
+Time limit of 300 seconds reached. Stopping at generation 139911
+
+Kết quả cho thuật toán GA với instance custom\N_50_K_10.txt:
+494
+
+==================================================
+Instance: custom\N_50_K_5.txt
+Time limit of 300 seconds reached. Stopping at generation 155779
+
+Kết quả cho thuật toán GA với instance custom\N_50_K_5.txt:
+785
+
+==================================================
+Instance: custom\N_5_K_2.txt
+Time limit of 300 seconds reached. Stopping at generation 348577
+
+Kết quả cho thuật toán GA với instance custom\N_5_K_2.txt:
+360
+
+==================================================
+Instance: custom\N_700_K_70.txt
+Time limit of 300 seconds reached. Stopping at generation 3905
+
+Kết quả cho thuật toán GA với instance custom\N_700_K_70.txt:
+3120
+
+==================================================
+Instance: custom\N_900_K_90.txt
+Time limit of 300 seconds reached. Stopping at generation 2457
+
+Kết quả cho thuật toán GA với instance custom\N_900_K_90.txt:
+3790
+
+==================================================
+Instance: custom\solution_1000_100_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 1953
+
+Kết quả cho thuật toán GA với instance custom\solution_1000_100_outskirt.txt:
+1320
+
+==================================================
+Instance: custom\solution_1000_50_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 2018
+
+Kết quả cho thuật toán GA với instance custom\solution_1000_50_outskirt.txt:
+1396
+
+==================================================
+Instance: custom\solution_100_10_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 76740
+
+Kết quả cho thuật toán GA với instance custom\solution_100_10_crowded.txt:
+1316
+
+==================================================
+Instance: custom\solution_10_5_crowded.txt
+
+Kết quả cho thuật toán GA với instance custom\solution_10_5_crowded.txt:
+158
+
+==================================================
+Instance: custom\solution_10_5_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 298504
+
+Kết quả cho thuật toán GA với instance custom\solution_10_5_outskirt.txt:
+195
+
+==================================================
+Instance: custom\solution_200_10_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 32257
+
+Kết quả cho thuật toán GA với instance custom\solution_200_10_crowded.txt:
+1277
+
+==================================================
+Instance: custom\solution_200_10_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 32346
+
+Kết quả cho thuật toán GA với instance custom\solution_200_10_outskirt.txt:
+1311
+
+==================================================
+Instance: custom\solution_200_20_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 31535
+
+Kết quả cho thuật toán GA với instance custom\solution_200_20_crowded.txt:
+1383
+
+==================================================
+Instance: custom\solution_200_20_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 32153
+
+Kết quả cho thuật toán GA với instance custom\solution_200_20_outskirt.txt:
+758
+
+==================================================
+Instance: custom\solution_20_2_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 279254
+
+Kết quả cho thuật toán GA với instance custom\solution_20_2_crowded.txt:
+657
+
+==================================================
+Instance: custom\solution_20_2_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 276989
+
+Kết quả cho thuật toán GA với instance custom\solution_20_2_outskirt.txt:
+707
+
+==================================================
+Instance: custom\solution_500_25_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 7136
+
+Kết quả cho thuật toán GA với instance custom\solution_500_25_crowded.txt:
+1543
+
+==================================================
+Instance: custom\solution_500_25_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 7574
+
+Kết quả cho thuật toán GA với instance custom\solution_500_25_outskirt.txt:
+1273
+
+==================================================
+Instance: custom\solution_500_50_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 7911
+
+Kết quả cho thuật toán GA với instance custom\solution_500_50_crowded.txt:
+795
+
+==================================================
+Instance: custom\solution_500_50_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 8222
+
+Kết quả cho thuật toán GA với instance custom\solution_500_50_outskirt.txt:
+770
+
+==================================================
+Instance: custom\solution_50_5_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 170929
+
+Kết quả cho thuật toán GA với instance custom\solution_50_5_crowded.txt:
+701
+
+==================================================
+Instance: custom\solution_50_5_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 158396
+
+Kết quả cho thuật toán GA với instance custom\solution_50_5_outskirt.txt:
+654
+
+==================================================
+Instance: custom\solution_5_2_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 398283
+
+Kết quả cho thuật toán GA với instance custom\solution_5_2_crowded.txt:
+147
+
+==================================================
+Instance: custom\solution_5_2_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 412115
+
+Kết quả cho thuật toán GA với instance custom\solution_5_2_outskirt.txt:
+326
+
+==================================================
+Instance: custom\solution_700_35_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 4043
+
+Kết quả cho thuật toán GA với instance custom\solution_700_35_outskirt.txt:
+1364
+
+==================================================
+Instance: custom\solution_700_70_crowded.txt
+Time limit of 300 seconds reached. Stopping at generation 4033
+
+Kết quả cho thuật toán GA với instance custom\solution_700_70_crowded.txt:
+821
+
+==================================================
+Instance: custom\solution_700_70_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 3998
+
+Kết quả cho thuật toán GA với instance custom\solution_700_70_outskirt.txt:
+823
+
+==================================================
+Instance: custom\solution_900_45_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 2629
+
+Kết quả cho thuật toán GA với instance custom\solution_900_45_outskirt.txt:
+1391
+
+==================================================
+Instance: custom\solution_900_90_outskirt.txt
+Time limit of 300 seconds reached. Stopping at generation 2559
+
+Kết quả cho thuật toán GA với instance custom\solution_900_90_outskirt.txt:
+1355
+
+==================================================
+Instance: hustack\case1.txt
+Time limit of 300 seconds reached. Stopping at generation 33598
+
+Kết quả cho thuật toán GA với instance hustack\case1.txt:
+4160
+
+==================================================
+Instance: hustack\case10.txt
+Time limit of 300 seconds reached. Stopping at generation 2490
+
+Kết quả cho thuật toán GA với instance hustack\case10.txt:
+3180
+
+==================================================
+Instance: hustack\case2.txt
+Time limit of 300 seconds reached. Stopping at generation 31623
+
+Kết quả cho thuật toán GA với instance hustack\case2.txt:
+3220
+
+==================================================
+Instance: hustack\case3.txt
+Time limit of 300 seconds reached. Stopping at generation 2110
+
+Kết quả cho thuật toán GA với instance hustack\case3.txt:
+3260
+
+==================================================
+Instance: hustack\case4.txt
+Time limit of 300 seconds reached. Stopping at generation 392267
+
+Kết quả cho thuật toán GA với instance hustack\case4.txt:
+360
+
+==================================================
+Instance: hustack\case5.txt
+Time limit of 300 seconds reached. Stopping at generation 76837
+
+Kết quả cho thuật toán GA với instance hustack\case5.txt:
+3020
+
+==================================================
+Instance: hustack\case6.txt
+Time limit of 300 seconds reached. Stopping at generation 7250
+
+Kết quả cho thuật toán GA với instance hustack\case6.txt:
+3120
+
+==================================================
+Instance: hustack\case7.txt
+Time limit of 300 seconds reached. Stopping at generation 347241
+
+Kết quả cho thuật toán GA với instance hustack\case7.txt:
+540
+
+==================================================
+Instance: hustack\case8.txt
+Time limit of 300 seconds reached. Stopping at generation 10567
+
+Kết quả cho thuật toán GA với instance hustack\case8.txt:
+3050
+
+==================================================
+Instance: hustack\case9.txt
+
+Kết quả cho thuật toán GA với instance hustack\case9.txt:
+3090

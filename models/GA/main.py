@@ -21,7 +21,7 @@ def main(cfg):
     best_sol, best_fit = genetic_algorithm(
         N, K, d_list, t_matrix,
         pop_size=100,
-        generations=400,
+        generations=50000000,
         crossover_rate=0.8,
         mutation_rate=0.1,
         use_hill_climbing=True,

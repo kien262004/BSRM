@@ -1,5 +1,6 @@
 import random
 import matplotlib.pyplot as plt
+import time  # Add time module import
 
 
 # ------------------------------------------------------
@@ -271,11 +272,13 @@ def mutation(solution, N, K, mutation_rate=0.1):
 # GIẢI THUẬT DI TRUYỀN CHÍNH (Genetic Algorithm)
 # ------------------------------------------------------
 def genetic_algorithm(N, K, d_list, t_matrix,
-                      pop_size=50, generations=200,
+                      pop_size=50, generations=50000000,
                       crossover_rate=0.8, mutation_rate=0.1,
                       use_hill_climbing=True,
-                      hill_climbing_freq=10):  # Áp dụng hill climbing mỗi X thế hệ
+                      hill_climbing_freq=10,
+                      time_limit=300):  # Add time limit parameter (in seconds)
     
+    start_time = time.time()  # Record start time
     population = [create_random_solution(N, K, d_list, t_matrix) for _ in range(pop_size)]
     fitnesses = [compute_fitness(ind, N, K, d_list, t_matrix) for ind in population]
 
@@ -286,6 +289,11 @@ def genetic_algorithm(N, K, d_list, t_matrix,
     avg_fitness_history = []
 
     for gen in range(generations):
+        # Check if time limit is exceeded
+        if time.time() - start_time > time_limit:
+            print(f"Time limit of {time_limit} seconds reached. Stopping at generation {gen}")
+            break
+
         new_population = []
         while len(new_population) < pop_size:
             idx1 = selection(population, fitnesses)
@@ -317,6 +325,10 @@ def genetic_algorithm(N, K, d_list, t_matrix,
 
         # Áp dụng hill climbing cho lời giải tốt nhất sau một số thế hệ nhất định
         if use_hill_climbing and (gen + 1) % hill_climbing_freq == 0:
+            # Check time limit before hill climbing
+            if time.time() - start_time > time_limit:
+                break
+                
             improved_sol, improved_fit = hill_climbing(best_sol, N, K, d_list, t_matrix)
             if improved_fit < best_fit:
                 best_sol = improved_sol
@@ -325,38 +337,6 @@ def genetic_algorithm(N, K, d_list, t_matrix,
                 worst_idx = fitnesses.index(max(fitnesses))
                 population[worst_idx] = improved_sol
                 fitnesses[worst_idx] = improved_fit
-
-        # In thông tin quá trình mà không plot liên tục
-        # if (gen + 1) % 50 == 0 or gen == generations - 1:
-        #     print(
-        #         f"Generation {gen + 1}/{generations} | Best makespan: {best_fit} | Average fitness: {gen_avg_fit:.2f}")
-
-    # # Sau khi kết thúc vòng lặp, plot kết quả 1 lần duy nhất.
-    # plt.figure(figsize=(12, 5))
-
-    # # Plot fitness evolution
-    # plt.subplot(1, 2, 1)
-    # plt.plot(best_fitness_history, 'b-', label='Best Fitness')
-    # plt.plot(avg_fitness_history, 'r-', label='Avg Fitness')
-    # plt.xlabel('Generation')
-    # plt.ylabel('Fitness (Makespan)')
-    # plt.title('Fitness Evolution')
-    # plt.legend()
-
-    # # Plot current best solution theo từng tuyến
-    # plt.subplot(1, 2, 2)
-    # routes = decode_solution(best_sol, N, K)
-    # times = [route_time(route, d_list, t_matrix) for route in routes]
-
-    # plt.bar(range(1, K + 1), times)
-    # plt.axhline(y=max(times), color='r', linestyle='--', label='Makespan')
-    # plt.xlabel('Route')
-    # plt.ylabel('Time')
-    # plt.title('Best Solution Routes')
-    # plt.legend()
-
-    # plt.tight_layout()
-    # plt.show()
 
     return best_sol, best_fit
 
@@ -393,7 +373,7 @@ if __name__ == "__main__":
                                         crossover_rate=0.8,
                                         mutation_rate=0.1,
                                         use_hill_climbing=True,
-                                        hill_climbing_freq=20)
-    # # 3. Xuất kết quả
-
+                                        hill_climbing_freq=20,
+                                        time_limit=300)  # Set 5 minutes time limit
+    # 3. Xuất kết quả
     print_solution(best_sol, N, K)

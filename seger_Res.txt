@@ -1,0 +1,59 @@
+==================================================
+Instance: hustack\case1.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case1.txt:
+4260
+
+==================================================
+Instance: hustack\case10.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case10.txt:
+3230
+
+==================================================
+Instance: hustack\case2.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case2.txt:
+3360
+
+==================================================
+Instance: hustack\case3.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case3.txt:
+3220
+
+==================================================
+Instance: hustack\case4.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case4.txt:
+360
+
+==================================================
+Instance: hustack\case5.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case5.txt:
+3260
+
+==================================================
+Instance: hustack\case6.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case6.txt:
+3240
+
+==================================================
+Instance: hustack\case7.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case7.txt:
+560
+
+==================================================
+Instance: hustack\case8.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case8.txt:
+3250
+
+==================================================
+Instance: hustack\case9.txt
+
+Kết quả cho thuật toán segerstedt với instance hustack\case9.txt:
+3200
